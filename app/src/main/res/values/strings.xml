@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MasterEnglish</string>
+    <string name="main_image_desc">Main image description</string>
+    <string name="start_button_desc">Register button image description</string>
+    <string name="login_button_desc">Login button image description</string>
+
+</resources>

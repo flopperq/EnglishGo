@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_user_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Список пользователей"
+        android:textColorLink="#F80707"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/btn_task_yes_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_user_list"
+        android:layout_marginTop="20dp"
+        android:text="Задания: Да/Нет"
+        android:backgroundTint="@color/blue"/>
+
+    <TextView
+        android:id="@+id/tv_last_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_task_yes_no"
+        android:layout_marginTop="8dp"
+        android:text="Последний результат: 0/0"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_task_spelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_task_yes_no"
+        android:layout_marginTop="40dp"
+        android:text="Задания: Правописание"
+        android:backgroundTint="@color/blue"/>
+
+    <TextView
+        android:id="@+id/tv_last_result_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_task_yes_no"
+        android:layout_marginTop="97dp"
+        android:text="Последний результат: 0/0"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_task_matching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_task_spelling"
+        android:layout_marginTop="40dp"
+        android:text="Задания: Сопоставление"
+        android:backgroundTint="@color/blue" />
+
+    <TextView
+        android:id="@+id/tv_last_result_matching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_task_matching"
+        android:layout_marginTop="8dp"
+        android:text="Сопоставление: 0/0"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_user_list"
+        android:layout_marginTop="288dp"
+        android:backgroundTint="@color/blue"
+        android:text="Выйти" />
+</RelativeLayout>
